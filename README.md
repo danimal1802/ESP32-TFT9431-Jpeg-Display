@@ -3,8 +3,8 @@ Display JPEG images on TFT 9341 display using ESP32 and SD card with images
 
 Wiring setup between the ESP32 and TFT display:
 
-In User_Setup.h
----------------
+GPIO pin connections defined in User_Setup.h
+--------------------------------------------
 #define TFT_MOSI 23
 
 #define TFT_SCLK 18  // Clock
@@ -16,8 +16,8 @@ In User_Setup.h
 #define TFT_RST   4  // Reset pin (could connect to RST pin)
 
 
-Pin values not set in User_Setup.h
-----------------------------------
+GPIO pin connections not-defined in User_Setup.h
+------------------------------------------------
 SD_SCK      18
 
 SD_MISO     19
